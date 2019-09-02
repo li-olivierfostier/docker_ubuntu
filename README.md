@@ -5,8 +5,7 @@
 
 # Information
 
-This image is used to set the locale to en_US.UTF-8.
-It is used as the base image for other projects.
+This image is used as the base image for other projects.
 
 The Docker builds on [CircleCI](https://circleci.com) : [![Circle CI](https://circleci.com/gh/li-olivierfostier/docker_ubuntu.svg?style=shield)]
 (https://circleci.com/gh/li-olivierfostier/docker_ubuntu)
@@ -38,7 +37,7 @@ git clone https://github.com/li-olivierfostier/docker-ubuntu.git \
 You can build directly from the [GitHub project](https://github.com/li-olivierfostier/docker-ubuntu/) :
 
 ```
-docker build -t li-olivierfostier/ubuntu github.com/pascalgrimaud/docker-ubuntu.git
+docker build -t li-olivierfostier/ubuntu github.com/li-olivierfostie/docker-ubuntu.git
 ```
 
 Alternately, you can pull the image from [Docker Hub](https://hub.docker.com/r/ofostier/ubuntu/) :
