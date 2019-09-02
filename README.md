@@ -31,7 +31,7 @@ You can clone this project and build with docker command :
 ```
 git clone https://github.com/li-olivierfostier/docker-ubuntu.git \
 && cd docker-ubuntu \
-&& docker build -t li-olivierfostier/ubuntu .
+&& docker build -t ofostier/ubuntu .
 ```
 
 You can build directly from the [GitHub project](https://github.com/li-olivierfostier/docker-ubuntu/) :
