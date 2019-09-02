@@ -8,12 +8,8 @@
 This image is used to set the locale to en_US.UTF-8.
 It is used as the base image for other projects.
 
-The Docker builds on [CircleCI](https://circleci.com) :
-
-* But, when you test `locale-gen en_US.UTF-8`, it failed [![Circle CI](https://circleci.com/gh/li-olivierfostier/docker_ubuntu.svg?style=shield)]
+The Docker builds on [CircleCI](https://circleci.com) : [![Circle CI](https://circleci.com/gh/li-olivierfostier/docker_ubuntu.svg?style=shield)]
 (https://circleci.com/gh/li-olivierfostier/docker_ubuntu)
-
-* You can see this error in the log when you attempt to change the locale from an Ubuntu image :
 
 
 The base docker image :
